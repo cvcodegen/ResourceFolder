@@ -1,0 +1,2010 @@
+@charset "utf-8";
+/* CSS Document */
+
+.OpenSans_Fnt {
+	font-family: OpenSans, Verdana, Geneva, sans-serif;
+}
+.OpenSansSemibold_Fnt {
+	font-family: OpenSansSemibold, Verdana, Geneva, sans-serif;
+}
+.OpenSansBold_Fnt {
+	font-family: OpenSansBold, Verdana, Geneva, sans-serif;
+}
+.OpenSansSemiboldItalic_Fnt {
+	font-family: OpenSansSemiboldItalic, Verdana, Geneva, sans-serif;
+}
+
+
+/* ======================================Booking Engine 1======================================================   */
+
+.rounRdio{
+	
+}
+.bkRdiRsid{	
+	width: 100px;	
+	margin-left: 10px;
+	
+}
+
+.htmlTag .BookingEng {
+	background-image: url(../images/booking_bg.jpg);
+	background-repeat: repeat-y;
+	background-position: center;
+	margin-top: -3px;
+	margin-left: -2px;
+
+	
+}
+
+.htmlTag .childAges select{
+
+ color: #000000;
+    font: 100% arial,sans-serif;
+border: 1px solid #CCCCCC;
+    font-size: 12px;
+    height: 21px;
+    
+    }
+
+.htmlTag .BEHeader {
+	background-repeat: no-repeat;
+	background-position: top center;
+	
+}
+.htmlTag .BEFotter  {
+	
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	padding-top: 13px;
+	padding-bottom: 5px;
+	
+}
+.htmlTag .BkeIcon {
+	background-image: url(../images/book_icon.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 34px;
+}
+
+.htmlTag .InfoPop {
+	border: 1px solid #f7931d;
+	padding: 4px;
+	background-color: #fbe1c3;
+	font-size: 11px;
+	font-weight: bold;
+	padding-left: 30px;
+	background-image: url(../images/infom.png);
+	background-repeat: no-repeat;
+	background-position: 5px 2px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+
+.htmlTag .InfoPop2 {
+	border: 1px solid #f7931d;
+	padding: 4px;
+	background-color: #fffadb;
+	font-size: 11px;
+	width: 189px;
+	background-image: url(../images/infom.png);
+	background-repeat: no-repeat;
+	background-position: 2px 2px;
+	padding-left: 23px;
+}
+.htmlTag .txtAlgLeft {
+	text-align: left;
+}
+
+.htmlTag .bESelTbHovSel .bg {
+	background-image: url(../images/book_selHov_bg.png);
+	background-repeat: repeat-x;
+	height: 22px;
+	padding: 6px 15px 0 15px;
+	text-align: center;
+
+}
+.htmlTag .bESelTbHovSel .Rimg {
+	cursor: default;
+}
+.htmlTag .bESelTbHovSel {
+	color: #444444;
+	font-size: 12px;
+}
+.htmlTag a {
+	color: #238cb5;
+}
+.htmlTag .bESelTbSel {
+	background-image: url(../images/bESelTbSel_L.png);
+	background-repeat: no-repeat;
+	height: 27px;
+	color: #fff;
+	font-size: 12px;
+	padding-left: 9px;
+	vertical-align: top;
+	float: left;
+}
+.htmlTag .bESelTbSel .Rimg {
+	background-image: url(../images/bESelTbHovSel_R.png);
+	background-repeat: repeat-x;
+	background-position: right top;
+	height: 27px;
+	padding-right: 9px;
+	vertical-align: top;
+	cursor: default;
+}
+.htmlTag .bESelTbSel .bg {
+	background-image: url(../images/book_sel_bg.png);
+	background-repeat: repeat-x;
+	height: 22px;
+	padding: 5px 15px 0 15px;
+	text-align: center;
+	cursor: pointer;
+ *cursor: pointer;
+}
+.htmlTag .bESelTbHovSel {
+	background-image: url(../images/bESelTbHovSel_L.png);
+	background-repeat: no-repeat;
+	height: 27px;
+	color: #444444;
+	font-size: 12px;
+	padding-left: 9px;
+	vertical-align: top;
+	float: left;
+}
+.htmlTag .bESelTbHovSel .Rimg {
+	background-image: url(../images/book_sel_tbRR.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	height: 27px;
+	padding-right: 9px;
+	vertical-align: top;
+	cursor: default;
+}
+.htmlTag .bESelTbHovSel .bg {
+	background-image: url(../images/book_selHov_bg.png);
+	background-repeat: repeat-x;
+	height: 22px;
+	padding: 6px 15px 0 15px;
+	text-align: center;
+}
+
+
+
+.htmlTag .Dateselect {
+	width: 122px;
+	height: 17px;
+	background-image: url(../images/cal_icon.png);
+	background-repeat: no-repeat;
+	background-position: center right;
+	border: 1px solid #ccc;
+	padding-top: 3px;
+}
+
+
+.htmlTag .SBMsg {
+	margin: 2px;
+	border: 1px solid #EDECEC;
+	background-color: #F3F3F3;
+	padding: 10px 5px 10px 5px;
+	font-size: 11px;
+	color: #B4120A;
+	font-weight: bold;
+	padding-left: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 1px dotted #CCC;
+	background-color: #F7F7F7;
+	padding-left: 45px;
+	padding-top: 5px;
+}
+.htmlTag .BkDrop option {
+	padding-bottom: 3px;
+	padding-top: 3px;
+	line-height: 25px;
+}
+
+.htmlTag .City {
+	padding-left: 10px !important;
+	*padding-left: 10px !important;
+	cursor: pointer;
+}
+
+
+.htmlTag .Country {
+	border-bottom: 1px dotted #ccc;
+}
+
+.htmlTag .FullDesLimit {
+	cursor: pointer;
+	max-width: 218px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	float: left;
+}
+
+
+.bkRdLside{
+	
+	background-color: green;
+	width: 150px;
+	
+	
+}
+
+
+.htmlTag label {
+	display: block !important;
+	padding-left: 15px !important;
+	text-indent: -15px !important;
+	
+}
+.htmlTag .FClear {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+	height: 0px;
+}
+
+
+.htmlTag input[type="text"]{
+	width: 122px !important;
+	height: 17px !important;	
+	background-repeat: no-repeat !important;
+	background-position: center right !important;
+	border: 1px solid #ccc ;
+	padding:0px;
+	padding-top: 3px !important;
+	font-size: 12px;
+}
+.htmlTag .PT3 {
+	padding-top: 3px;
+}
+.htmlTag form {
+	padding: 0;
+	margin: 0;
+	
+}
+.htmlTag .TabBox .tabs {
+	padding-left: 23px;
+	margin-bottom: 0px;
+ *margin-bottom: -1px;
+}
+
+.htmlTag .TabBox .tabs a{
+	
+	text-decoration: none;
+	
+}
+
+
+.htmlTag .TabBoxBody {
+	background-image: url(../images/be_tb_body_tp.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding-top: 5px;
+}
+.htmlTag .TabBoxBodyBt {
+	background-image: url(../images/be_tb_body_bt.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	padding-bottom: 5px;
+}
+
+.TabBox{
+	*width: 282px;
+	
+	
+}
+
+.htmlTag .tbB {
+	background-image: url(../images/be_tb_body.png);
+	background-repeat: repeat-y;
+	background-position: center;
+	width: 262px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	padding-bottom: 3px;
+}
+
+.BkDrop {
+	border: 1px solid #cccc;
+	width: 99.5%;
+	border: 1px solid #ccc;
+	height: 21px;
+	font-size: 12px;
+	*letter-spacing:1px;
+	*line-height:22px;
+}
+.htmlTag .width125 {
+	width: 125px;
+}
+.htmlTag .fSiz11 {
+	font-size: 11px;
+}
+.htmlTag .pdL25 {
+	padding-left: 25px;
+}
+.htmlTag .fltLeft {
+	float: left;
+}
+.htmlTag .fltRight {
+	float: right;
+}
+.htmlTag .fcol1 {
+	color: #fff;
+}
+.htmlTag .fcol2 {
+	color: #5d9833;
+}
+.htmlTag .fcol3 {
+	color: #666666;
+}
+.htmlTag .fcol4 {
+	color: #444
+}
+.htmlTag .fcol5 {
+	color: #3097c2;
+}
+.htmlTag .fcol6 {
+	color: #c5141e;
+}
+.fcol7 {
+	color: #f08b41;
+}
+.htmlTag .fcol8 {
+	color: #cb1820;
+}
+.htmlTag .fcol9 {
+	color: #04e4ff;
+}
+.htmlTag .minheg39 {
+	min-height: 39px;
+}
+.htmlTag .WidthLess100 {
+	min-width: 83px;
+ *max-width: 83px;
+}
+.htmlTag .PL3 {
+	padding-left: 6px;
+}
+.htmlTag .pdb0 {
+	padding-bottom: 0px !important;
+}
+.htmlTag .width135 {
+	width: 135px;
+}
+.htmlTag .PromoCd {
+	width: 120px;
+	border: 1px solid #ccc;
+	height: 20px;
+	padding: 0px;
+	margin: 0px;
+}
+.htmlTag .title {
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 11px;
+    padding: 0 0 5px !important;
+}
+.htmlTag .title {
+	font-size: 12px;
+	color: #444;
+}
+.htmlTag .bESelTbSel .Rimg {
+	background-image: url(../images/bESelTbHovSel_R.png);
+	background-repeat: repeat-x;
+	background-position: right top;
+	height: 27px;
+	padding-right: 9px;
+	vertical-align: top;
+	cursor: default;
+}
+.htmlTag .bESelTbSel .bg {
+	background-image: url(../images/book_sel_bg.png);
+	background-repeat: repeat-x;
+	height: 22px;
+	padding: 5px 15px 0 15px;
+	text-align: center;
+	cursor: pointer;
+ *cursor: pointer;
+}
+.htmlTag .bESelTbHov {
+	background-image: url(../images/book_sel_tbR.png);
+	background-repeat: no-repeat;
+	height: 27px;
+	color: #444444;
+	font-size: 12px;
+	padding-left: 9px;
+	vertical-align: top;
+	float: left;
+	cursor: default;
+}
+
+
+
+
+
+
+
+
+.htmlTag .bESelTbHov .bg {
+	background-image: url(../images/book_selHov_bg.png);
+	background-repeat: repeat-x;
+	height: 22px;
+	padding: 6px 15px 0 15px;
+	text-align: center;
+}
+.htmlTag .bESelTbHov .Rimg {
+	background-image: url(../images/book_selHov_tbR.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	height: 27px;
+	padding-right: 9px;
+	vertical-align: top;
+}
+.htmlTag .book_sel_tbL {
+	background-image: url(../images/book_sel_tbL.png);
+}
+.htmlTag .bESelTb {
+	background-image: url(../images/book_sel_tbL.png);
+	background-repeat: no-repeat;
+	height: 27px;
+	color: #fff;
+	font-size: 12px;
+	padding-left: 9px;
+	vertical-align: top;
+	float: left;
+}
+.htmlTag .bESelTbHov {
+	background-image: url(../images/book_sel_tbR.png);
+	background-repeat: no-repeat;
+	height: 27px;
+	color: #444444;
+	font-size: 12px;
+	padding-left: 9px;
+	vertical-align: top;
+	float: left;
+	cursor: default;
+}
+.htmlTag .bESelTbHov .Rimg {
+	background-image: url(../images/book_selHov_tbR.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	height: 27px;
+	padding-right: 9px;
+	vertical-align: top;
+}
+.htmlTag .bESelTb .Rimg {
+	background-image: url(../images/book_sel_bg.png);
+	background-repeat: repeat-x;
+	background-position: right top;
+	height: 27px;
+	padding-right: 9px;
+	vertical-align: top;
+}
+.htmlTag .bESelTb .bg {
+	background-image: url(../images/book_sel_bg.png);
+	background-repeat: repeat-x;
+	height: 22px;
+	padding: 5px 15px 0 15px;
+	text-align: center;
+	cursor: pointer;
+ *cursor: pointer;
+}
+.htmlTag .bESelTb {
+	background-image: url(../images/book_sel_tbL.png);
+	background-repeat: no-repeat;
+	height: 27px;
+	color: #fff;
+	font-size: 12px;
+	padding-left: 9px;
+	vertical-align: top;
+	float: left;
+}
+/*Calender Styles ------------------------------*/
+.htmlTag .BtnPkg {
+	background-image: url(../images/pkg_btn_bg.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	height: 64px;
+	width: 395px;
+	padding: 10px;
+}
+.htmlTag .BKE_Cal {
+	width: 235px;
+	background-image: url(../images/cal_bg_rp_bot.png);
+	background-repeat: no-repeat;
+	background-position: 1px 206px;
+	padding-bottom: 11px;
+	position: absolute;
+	z-index: 10;
+	left: 269px;
+	top: 331px;
+}
+.htmlTag .bkRepImg {
+	background-image: url(../images/cal_bg_rp.png);
+	width: 225px;
+	padding: 3px;
+	padding-right: 1px;
+}
+.htmlTag .BKE_Cal2 {
+	background-image: url(../images/cal_bg2.png) !important;
+	height: 271px !important;
+	width: 220px !important;
+}
+.htmlTag .DatesCal {
+	border-top-width: 0px;
+	border-top-style: solid;
+	border-top-color: #828282;
+	border-bottom-width: 0px;
+	border-bottom-style: solid;
+	border-bottom-color: #828282;
+}
+.htmlTag .DaysCal {
+	padding: 0px;
+	margin: 0px;
+}
+.htmlTag .DaysCal li {
+	list-style-type: none;
+	display: block;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	width: 31px;
+	float: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #a2a1a1;
+	color: #fff;
+
+}
+.htmlTag .DatesCal ul {
+	margin: 0px;
+	padding: 0px;
+	padding-left: 1px;
+}
+.htmlTag .DatesCal ul .DayB {
+	list-style-type: none;
+}
+.htmlTag .BKE_Cal .DatesCal ul li {
+	list-style-type: none;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	height: 21px;
+	width: 30px;
+	float: left;
+	padding-top: 8px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #FFF;
+	color: #444;
+
+}
+.htmlTag .CalDtBoRLine {
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #5B5B5B;
+ *border-right: 1px dotted #ccc !important;
+}
+.htmlTag .CalDtBoBLine {
+	border-bottom: 1px dotted #5B5B5B;
+ *border-bottom: 1px dotted #ccc !important;
+}
+.htmlTag .DtNotAvil {
+	background-color: #e5e5e5 !important;
+	color: #9f9f9f !important;
+}
+.htmlTag .BKE_Cal .DatesCal ul li:hover {
+	background-color: #02a1e1 !important;
+	color: #fff !important
+}
+.htmlTag .SpDateBg {
+	background-image: url(../images/cad_dt_bk_bg.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: top center !important;
+}
+.htmlTag .NDRow {
+	background-color: #fff;
+	padding: 5px;
+	margin-left: 1px;
+	margin-right: 8px;
+	border-top: 1px solid #444;
+}
+
+
+.htmlTag .NDDiv {
+    background-color: #E5E5E5;
+    height: 20px;
+    width: 20px;
+}
+
+
+.htmlTag.City {
+    cursor: pointer;
+    padding-left: 10px !important;
+}
+
+
+.htmlTag.Country {
+    border-bottom: 1px dotted #CCCCCC;
+}
+/* end Calender Styles ------------------------------*/
+
+.htmlTag .MaRigAuto {
+	margin-right: auto;
+}
+.htmlTag .fBold {
+	font-weight: bold;
+}
+.htmlTag .width170 {
+	width: 170px;
+}
+.htmlTag .fcol1 {
+	color: #fff;
+}
+.htmlTag .width24 {
+	width: 24px;
+}
+.htmlTag .pdB6 {
+	padding-bottom: 6px;
+}
+.htmlTag .fSiz14 {
+	font-size: 14px;
+}
+.htmlTag .pdT4 {
+	padding-top: 4px;
+}
+.htmlTag .lodAni {
+	float: left;
+	height: 14px;
+	width: 200px;
+	position: absolute;
+	margin-left: -47px;
+	margin-top: 84px;
+	padding: 10px;
+	text-align: center;
+	height: 32px;
+	z-index: 100;
+ *margin-left: -130px;
+}
+.htmlTag .BotNavi {
+	color: #ccc;
+	padding-top: 15px;
+	font-size: 13px;
+}
+.htmlTag .childAgesTitle {
+	font-size: 11px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 2px;
+}
+.htmlTag .childAges {
+	margin: 2px 2px -18px 2px;
+	border: 1px dotted #CCC;
+	background-color: #F7F7F7;
+	padding-left: 8px;
+	padding-top: 5px;
+	min-height: 45px;
+}
+.htmlTag .childAgeCol1 {
+	width: 39px;
+	padding-right: 9px;
+	padding-bottom: 8px;
+	float: left;
+}
+.htmlTag .DD {
+	position: relative;
+}
+.htmlTag .DD select.BkDrop {
+	padding: 1px;
+	white-space: nowrap;
+	margin: 0;
+	overflow: hidden;
+	background-image: url(../images/drob_bg.png);
+	
+	padding: 0px;
+	margin: 0px;
+}
+/*.childAgeCol1 {
+	width: 48px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	float: left;
+}*/
+.htmlTag .DD {
+	position: relative;
+}
+.htmlTag .DD select.BkDrop {
+	padding: 1px;
+	margin: 0;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	color: #333;
+	border: 1px solid #ccc;
+	outline: none;
+	display: inline-block;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	cursor: pointer;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff),  to(#dddddd) );
+	background: -moz-linear-gradient(top, #fff, #ddd);
+}
+.htmlTag .pv1 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	padding-bottom: 5px;
+}
+.htmlTag #childAges {
+	margin: 2px 2px -18px 2px;
+	border: 1px dotted #CCC;
+	background-color: #F7F7F7;
+	padding-left: 8px;
+	padding-top: 5px;
+	min-height: 45px;
+}
+.htmlTag p {
+	line-height: 17px;
+	font-size: 13px;
+	text-align: left;
+}
+.htmlTag h1, .htmlTag p {
+	padding: 0px;
+	margin: 0px;
+	font-weight: normal;
+}
+.htmlTag .errorMsg { /* height: 50px; */
+	padding-left: 6px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 11px;
+	border: 1px solid #DDA8A8;
+	background-color: #FDF5F5;
+	color: #B7170F;
+	/*border-bottom:1px dotted #df8080;*/
+	margin-bottom: 5px;
+}
+.htmlTag .borderRed {
+	border-color: #F00 !important;
+}
+
+.htmlTag input[type="radio"] {
+width: 13px;
+	height: 13px;
+	padding: 0;
+ *margin-bottom: 7px;
+	vertical-align : bottom;
+	position: relative;
+ *position: inherit;
+	top : -1px;
+ *overflow: hidden;
+	top: -1px;
+	vertical-align: bottom;
+	float: none !important;
+}
+
+.plan-trip-form  .htmlTag .row {
+	
+	
+	
+	padding-bottom: 15px !important;
+	
+}
+
+.htmlTag .minhegRad {
+	min-height: 15px;
+}
+
+.BookingEng .row {
+padding-bottom: 15px;
+}
+.htmlTag .pdL1
+ {
+	padding-left: 1px;
+}
+
+.htmlTag .pdL20 {
+	padding-left: 20px;
+}
+
+.htmlTag .IeInput{
+	font-family:OpenSans_Fnt,Verdana, Geneva, sans-serif;
+	
+	}
+	
+.htmlTag .IeLbl{
+		font-family:OpenSans_Fnt,Verdana, Geneva, sans-serif;
+		}
+		
+.htmlTag #rtLabel{
+
+*width: 60px;
+*height: 18px;
+	
+}
+.htmlTag #rtLabel, #owLabel{
+
+*width: 10px;
+*height: 18px;
+	
+}
+.htmlTag #rtLabel span{
+	*margin-top: -20px;
+	
+}
+
+.htmlTag #owLabel span{
+	*margin-top: -20px;
+	
+}
+
+.htmlTag .childAges select option {
+    padding: 4px;
+}
+
+/* ======================================Booking Engine 2======================================================   */
+
+.rounRdio{
+	
+	
+	width: 20px;
+	
+}
+
+.bkLbl{
+	
+	
+	*margin-top: 5px;
+	margin-top: 5px\9;
+	margin-top: 5px\0/;
+}
+
+
+
+.bkRdiLft{
+	width: 117px;	
+	
+}
+
+.bkRdiRsid{	
+	width: 100px;	
+	margin-left: 10px;
+	
+}
+
+
+.bkRdiLft input{ 
+	
+	*padding: 0px;
+	*margin: 0px;
+	
+}
+
+.bkRdiRsid input{
+	
+	*padding: 0px;
+	*margin: 0px;
+}
+
+.bkLbl{
+	margin-top: 2px;
+	margin-left: 2px;
+	*padding-left: 5px;
+	*margin-top: -2px;
+	padding-left: 5px\9;
+	
+	padding-left: 5px\0/;
+	margin-top: -3px\0/;
+}
+
+
+/* for gal tab */
+@media ( max-width : 600px) and (min-width: 590px) {
+			.bkRdiRsid{	
+			width: 100px;	
+			margin-left: 20px;
+			
+			}
+	}
+
+
+.PKGPopContainer .BookingEng {
+	background-image: url(../images/booking_bg.jpg);
+	background-repeat: repeat-y;
+	background-position: center;
+	margin-top: -3px;
+	
+	
+}
+.PKGPopContainer .BEHeader {
+	background-image: url(../images/booking_top.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	
+}
+ .PKGPopContainer .BEFotter {
+	
+	background-image: url(../images/booking_bot.jpg);
+	padding-bottom: 15px;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	padding-top: 16px;
+	width: 288px;
+
+	
+}
+.PKGPopContainer .BkeIcon {
+	background-image: url(../images/book_icon.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 34px;
+}
+.PKGPopContainer .txtAlgLeft {
+	text-align: left;
+}
+.PKGPopContainer , .htmlTag {
+	font-family: OpenSans, Helvetica, sans-serif;
+}
+
+.PKGPopContainer .bESelTbHovSel .bg {
+	background-image: url(../images/book_selHov_bg.png);
+	background-repeat: repeat-x;
+	height: 22px;
+	padding: 6px 15px 0 15px;
+	text-align: center;
+
+}
+.PKGPopContainer .bESelTbHovSel .Rimg {
+	cursor: default;
+}
+.PKGPopContainer .bESelTbHovSel {
+	color: #444444;
+	font-size: 12px;
+}
+.PKGPopContainer a {
+	color: #238cb5;
+}
+.PKGPopContainer .bESelTbSel {
+	background-image: url(../images/bESelTbSel_L.png);
+	background-repeat: no-repeat;
+	height: 27px;
+	color: #fff;
+	font-size: 12px;
+	padding-left: 9px;
+	vertical-align: top;
+	float: left;
+}
+.PKGPopContainer .bESelTbSel .Rimg {
+	background-image: url(../images/bESelTbHovSel_R.png);
+	background-repeat: repeat-x;
+	background-position: right top;
+	height: 27px;
+	padding-right: 9px;
+	vertical-align: top;
+	cursor: default;
+}
+.PKGPopContainer .bESelTbSel .bg {
+	background-image: url(../images/book_sel_bg.png);
+	background-repeat: repeat-x;
+	height: 22px;
+	padding: 5px 15px 0 15px;
+	text-align: center;
+	cursor: pointer;
+ *cursor: pointer;
+}
+.PKGPopContainer .bESelTbHovSel {
+	background-image: url(../images/bESelTbHovSel_L.png);
+	background-repeat: no-repeat;
+	height: 27px;
+	color: #444444;
+	font-size: 12px;
+	padding-left: 9px;
+	vertical-align: top;
+	float: left;
+}
+.PKGPopContainer .bESelTbHovSel .Rimg {
+	background-image: url(../images/book_sel_tbRR.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	height: 27px;
+	padding-right: 9px;
+	vertical-align: top;
+	cursor: default;
+}
+.PKGPopContainer .bESelTbHovSel .bg {
+	background-image: url(../images/book_selHov_bg.png);
+	background-repeat: repeat-x;
+	height: 22px;
+	padding: 6px 15px 0 15px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+.PKGPopContainer label {
+	display: block !important;
+	padding-left: 15px !important;
+	text-indent: -15px !important;
+}
+.PKGPopContainer .FClear {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+	height: 0px;
+}
+
+
+.PKGPopContainer input[type="text"]{
+	width: 122px !important;
+	height: 17px !important;
+	background-repeat: no-repeat !important;
+	background-position: center right !important;
+	border: 1px solid #ccc;
+	padding-top: 3px !important;
+}
+.PKGPopContainer .PT3 {
+	padding-top: 3px;
+}
+.PKGPopContainer form {
+	padding: 0;
+	margin: 0;
+	
+}
+.PKGPopContainer .TabBox .tabs {
+	padding-left: 23px;
+	margin-bottom: 0px;
+ *margin-bottom: -1px;
+}
+.PKGPopContainer .TabBoxBody {
+	background-image: url(../images/be_tb_body_tp.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding-top: 5px;
+}
+.PKGPopContainer .TabBoxBodyBt {
+	background-image: url(../images/be_tb_body_bt.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	padding-bottom: 5px;
+}
+.PKGPopContainer .BkDrop {
+	border: 1px solid #cccc;
+	width: 99.5%;
+	
+	border: 1px solid #ccc;
+	height: 21px;
+	font-size: 12px;
+}
+
+.PKGPopContainer .TabBox .tabs a{
+	
+	text-decoration: none;
+	
+}
+
+
+
+
+.PKGPopContainer .tbB {
+	background-image: url(../images/be_tb_body.png);
+	background-repeat: repeat-y;
+	background-position: center;
+	width: 262px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	padding-bottom: 3px;
+}
+
+.PKGPopContainer .BkDrop {
+	border: 1px solid #cccc;
+	width: 99.5%;
+	border: 1px solid #ccc;
+	height: 21px;
+	font-size: 12px;
+	
+}
+.PKGPopContainer .width125 {
+	width: 125px;
+}
+.PKGPopContainer .fSiz11 {
+	font-size: 11px;
+}
+.PKGPopContainer .pdL25 {
+	padding-left: 25px;
+}
+.PKGPopContainer .fltLeft {
+	float: left;
+}
+.PKGPopContainer .fltRight {
+	float: right;
+}
+.PKGPopContainer .fcol1 {
+	color: #fff;
+}
+.PKGPopContainer .fcol2 {
+	color: #5d9833;
+}
+.PKGPopContainer .fcol3 {
+	color: #666666;
+}
+.PKGPopContainer .fcol4 {
+	color: #444
+}
+.PKGPopContainer .fcol5 {
+	color: #3097c2;
+}
+.PKGPopContainer .fcol6 {
+	color: #c5141e;
+}
+.fcol7 {
+	color: #f08b41;
+}
+.PKGPopContainer .fcol8 {
+	color: #cb1820;
+}
+.PKGPopContainer .fcol9 {
+	color: #04e4ff;
+}
+.PKGPopContainer .minheg39 {
+	min-height: 39px;
+}
+.PKGPopContainer .WidthLess100 {
+	min-width: 83px;
+ *max-width: 83px;
+}
+.PKGPopContainer .PL3 {
+	padding-left: 6px;
+}
+.PKGPopContainer .pdb0 {
+	padding-bottom: 0px !important;
+}
+.PKGPopContainer .width135 {
+	width: 135px;
+}
+.PKGPopContainer .PromoCd {
+	width: 120px;
+	border: 1px solid #ccc;
+	height: 20px;
+	padding: 0px;
+	margin: 0px;
+}
+.PKGPopContainer .title {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	padding-bottom: 5px;
+}
+.PKGPopContainer .title {
+	font-size: 12px;
+	color: #444;
+}
+.PKGPopContainer .bESelTbSel .Rimg {
+	background-image: url(../images/bESelTbHovSel_R.png);
+	background-repeat: repeat-x;
+	background-position: right top;
+	height: 27px;
+	padding-right: 9px;
+	vertical-align: top;
+	cursor: default;
+}
+.PKGPopContainer .bESelTbSel .bg {
+	background-image: url(../images/book_sel_bg.png);
+	background-repeat: repeat-x;
+	height: 22px;
+	padding: 5px 15px 0 15px;
+	text-align: center;
+	cursor: pointer;
+ *cursor: pointer;
+}
+.PKGPopContainer .bESelTbHov {
+	background-image: url(../images/book_sel_tbR.png);
+	background-repeat: no-repeat;
+	height: 27px;
+	color: #444444;
+	font-size: 12px;
+	padding-left: 9px;
+	vertical-align: top;
+	float: left;
+	cursor: default;
+}
+.PKGPopContainer .bESelTbHov .bg {
+	background-image: url(../images/book_selHov_bg.png);
+	background-repeat: repeat-x;
+	height: 22px;
+	padding: 6px 15px 0 15px;
+	text-align: center;
+}
+.PKGPopContainer .bESelTbHov .Rimg {
+	background-image: url(../images/book_selHov_tbR.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	height: 27px;
+	padding-right: 9px;
+	vertical-align: top;
+}
+.PKGPopContainer .book_sel_tbL {
+	background-image: url(../images/book_sel_tbL.png);
+}
+.PKGPopContainer .bESelTb {
+	background-image: url(../images/book_sel_tbL.png);
+	background-repeat: no-repeat;
+	height: 27px;
+	color: #fff;
+	font-size: 12px;
+	padding-left: 9px;
+	vertical-align: top;
+	float: left;
+}
+.PKGPopContainer .bESelTbHov {
+	background-image: url(../images/book_sel_tbR.png);
+	background-repeat: no-repeat;
+	height: 27px;
+	color: #444444;
+	font-size: 12px;
+	padding-left: 9px;
+	vertical-align: top;
+	float: left;
+	cursor: default;
+}
+.PKGPopContainer .bESelTbHov .Rimg {
+	background-image: url(../images/book_selHov_tbR.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	height: 27px;
+	padding-right: 9px;
+	vertical-align: top;
+}
+.PKGPopContainer .bESelTb .Rimg {
+	background-image: url(../images/book_sel_bg.png);
+	background-repeat: repeat-x;
+	background-position: right top;
+	height: 27px;
+	padding-right: 9px;
+	vertical-align: top;
+}
+.PKGPopContainer .bESelTb .bg {
+	background-image: url(../images/book_sel_bg.png);
+	background-repeat: repeat-x;
+	height: 22px;
+	padding: 5px 15px 0 15px;
+	text-align: center;
+	cursor: pointer;
+ *cursor: pointer;
+}
+.PKGPopContainer .bESelTb {
+	background-image: url(../images/book_sel_tbL.png);
+	background-repeat: no-repeat;
+	height: 27px;
+	color: #fff;
+	font-size: 12px;
+	padding-left: 9px;
+	vertical-align: top;
+	float: left;
+}
+/*Calender Styles ------------------------------*/
+.PKGPopContainer .BtnPkg {
+	background-image: url(../images/pkg_btn_bg.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	height: 64px;
+	width: 395px;
+	padding: 10px;
+}
+.PKGPopContainer .BKE_Cal {
+	width: 235px;
+	background-image: url(../images/cal_bg_rp_bot.png);
+	background-repeat: no-repeat;
+	background-position: 1px 206px;
+	padding-bottom: 11px;
+	position: absolute;
+	z-index: 10;
+	left: 269px;
+	top: 331px;
+}
+.PKGPopContainer .bkRepImg {
+	background-image: url(../images/cal_bg_rp.png);
+	width: 225px;
+	padding: 3px;
+	padding-right: 1px;
+}
+.PKGPopContainer .BKE_Cal2 {
+	background-image: url(../images/cal_bg2.png) !important;
+	height: 271px !important;
+	width: 220px !important;
+}
+.PKGPopContainer .DatesCal {
+	border-top-width: 0px;
+	border-top-style: solid;
+	border-top-color: #828282;
+	border-bottom-width: 0px;
+	border-bottom-style: solid;
+	border-bottom-color: #828282;
+}
+.PKGPopContainer .DaysCal {
+	padding: 0px;
+	margin: 0px;
+}
+.PKGPopContainer .DaysCal li {
+	list-style-type: none;
+	display: block;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	width: 31px;
+	float: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #a2a1a1;
+	color: #fff;
+	cursor: pointer;
+}
+.PKGPopContainer .DatesCal ul {
+	margin: 0px;
+	padding: 0px;
+	padding-left: 1px;
+}
+.PKGPopContainer .DatesCal ul .DayB {
+	list-style-type: none;
+}
+.PKGPopContainer .BKE_Cal .DatesCal ul li {
+	list-style-type: none;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	height: 21px;
+	width: 30px;
+	float: left;
+	padding-top: 8px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #FFF;
+	color: #444;
+	cursor: pointer;
+}
+.PKGPopContainer .CalDtBoRLine {
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #5B5B5B;
+ *border-right: 1px dotted #ccc !important;
+}
+.PKGPopContainer .CalDtBoBLine {
+	border-bottom: 1px dotted #5B5B5B;
+ *border-bottom: 1px dotted #ccc !important;
+}
+.PKGPopContainer .DtNotAvil {
+	background-color: #e5e5e5 !important;
+	color: #9f9f9f !important;
+}
+.PKGPopContainer .BKE_Cal .DatesCal ul li:hover {
+	background-color: #02a1e1 !important;
+	color: #fff !important
+}
+.PKGPopContainer .SpDateBg {
+	background-color: #fff !important;
+	background-image: url(../images/cad_dt_bk_bg.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: top center !important;
+}
+.PKGPopContainer .NDRow {
+	background-color: #fff;
+	padding: 5px;
+	margin-left: 1px;
+	margin-right: 8px;
+	border-top: 1px solid #444;
+}
+/* end Calender Styles ------------------------------*/
+
+.PKGPopContainer .MaRigAuto {
+	margin-right: auto;
+}
+.PKGPopContainer .fBold {
+	font-weight: bold;
+}
+.PKGPopContainer .width170 {
+	width: 170px;
+}
+.PKGPopContainer .fcol1 {
+	color: #fff;
+}
+.PKGPopContainer .width24 {
+	width: 24px;
+}
+.PKGPopContainer .pdB6 {
+	padding-bottom: 6px;
+}
+.PKGPopContainer .fSiz14 {
+	font-size: 14px;
+}
+.PKGPopContainer .pdT4 {
+	padding-top: 4px;
+}
+.PKGPopContainer .lodAni {
+	float: left;
+	height: 14px;
+	width: 200px;
+	position: absolute;
+	margin-left: -47px;
+	margin-top: 84px;
+	padding: 10px;
+	text-align: center;
+	height: 32px;
+	z-index: 100;
+ *margin-left: -130px;
+}
+.PKGPopContainer .BotNavi {
+	color: #ccc;
+	padding-top: 15px;
+	font-size: 13px;
+}
+.PKGPopContainer .childAgesTitle {
+	font-size: 11px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 2px;
+}
+.PKGPopContainer .childAges {
+	margin: 2px 2px -18px 2px;
+	border: 1px dotted #CCC;
+	background-color: #F7F7F7;
+	padding-left: 8px;
+	padding-top: 5px;
+	min-height: 45px;
+}
+.PKGPopContainer .childAgeCol1 {
+	width: 39px;
+	padding-right: 9px;
+	padding-bottom: 8px;
+	float: left;
+}
+.PKGPopContainer .DD {
+	position: relative;
+}
+.PKGPopContainer .DD select.BkDrop {
+	padding: 1px;
+	white-space: nowrap;
+	margin: 0;
+	overflow: hidden;
+	background-image: url(../images/drob_bg.png);
+	width: 99%;
+	*width: 99%;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+
+/*.childAgeCol1 {
+	width: 48px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	float: left;
+}*/
+.PKGPopContainer .DD {
+	position: relative;
+}
+.PKGPopContainer .DD select.BkDrop {
+	padding: 1px;
+	margin: 0;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	color: #333;
+	border: 1px solid #ccc;
+	outline: none;
+	display: inline-block;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	cursor: pointer;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff),  to(#dddddd) );
+	background: -moz-linear-gradient(top, #fff, #ddd);
+}
+.PKGPopContainer .pv1 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	padding-bottom: 5px;
+}
+.PKGPopContainer #childAges {
+	margin: 2px 2px -18px 2px;
+	border: 1px dotted #CCC;
+	background-color: #F7F7F7;
+	padding-left: 8px;
+	padding-top: 5px;
+	min-height: 45px;
+}
+.PKGPopContainer p {
+	line-height: 17px;
+	font-size: 13px;
+	text-align: left;
+}
+.PKGPopContainer h1, .PKGPopContainer p {
+	padding: 0px;
+	margin: 0px;
+	font-weight: normal;
+}
+
+
+
+
+.PKGPopContainer .errorMsg { /* height: 50px; */
+	padding-left: 6px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 11px;
+	border: 1px solid #DDA8A8;
+	background-color: #FDF5F5;
+	color: #B7170F;
+	/*border-bottom:1px dotted #df8080;*/
+	margin-bottom: 5px;
+}
+.PKGPopContainer .borderRed {
+	border-color: #F00 !important;
+}
+
+.PKGPopContainer input[type="radio"] {
+width: 13px;
+	height: 13px;
+	padding: 0;
+ *margin-bottom: 7px;
+	vertical-align : bottom;
+	position: relative;
+ *position: inherit;
+	top : -1px;
+ *overflow: hidden;
+	top: -1px;
+	vertical-align: bottom;
+	float: none !important;
+}
+
+
+
+.PKGPopContainer .minhegRad {
+	min-height: 15px;
+}
+
+
+
+
+
+.PKGPopContainer .PopUpTopRBg {
+	background-image: url(../images/popConR1.png);
+	background-position: left;
+	background-repeat: repeat-y;
+	width: 8px;
+}
+
+.PKGPopContainer .PopUpTopLBg {
+	background-image: url(../images/popConLbg.png);
+	background-position: top right;
+	background-repeat: repeat-y;
+	width: 8px;
+}
+
+.PKGPopContainer .PopUpTopRBg {
+	background-image: url(../images/popConRbg.png);
+	background-position: top left;
+	background-repeat: repeat-y;
+	width: 8px;
+}
+
+.PKGPopContainer .PopUpTopRcon {
+	background-image: url(../images/PopUpR_con.png);
+	background-position: left top;
+	width: 8px;
+	height: 8px;
+	background-repeat: no-repeat;
+}
+
+.PKGPopContainer .PopUpTopLcon {
+	background-image: url(../images/PopUpTopLcon.png);
+	background-position: top right;
+	width: 8px;
+	height: 8px;
+	background-repeat: no-repeat;
+}
+
+.PKGPopContainer .PopUpBotR {
+	background-image: url(../images/PopUpRBot_con.png);
+	background-position: left top;
+	width: 8px;
+	height: 8px;
+	background-repeat: no-repeat;
+}
+.PKGPopContainer .PopUpTopBg {
+	background-image: url(../images/popCon.png);
+	background-position: top;
+	background-repeat: repeat-x;
+	height: 8px;
+	margin: 100px;
+}
+
+.PKGPopContainer .PopUpBopLCon {
+	background-image: url(../images/PopUpBoL_con.png);
+	background-position: top right;
+	background-repeat: no-repeat;
+	height: 8px;
+	margin: 100px;
+	width: 8px;
+}
+
+.PKGPopContainer .PopUpBotBg {
+	background-image: url(../images/popConBot.png);
+	background-position: bottom;
+	background-repeat: repeat-x;
+	height: 8px;
+	margin: 100px;
+}
+
+.PKGPopContainer .popup {
+	margin: 100px;
+	padding-top: 34px;
+}
+
+.PKGPopContainer .popupSm {
+	margin: 100px;
+	padding-top: 15px;
+}
+
+
+.PKGPopContainer .BgCol1 {
+background-color: #fff;
+}
+
+.PKGPopContainer .bokenclose {
+	position: relative;
+	left: 2px;
+	top: -2px;
+	cursor: pointer;
+}
+
+.PKGPopContainer .txtshadow{
+	text-shadow: 1px 1px 0px #000;
+	}
+.PKGPopContainer .fSiz13 {
+font-size: 13px;
+}
+
+.PKGPopContainer .fBold {
+font-weight: bold;
+}
+
+
+.PKGPopContainer .pdL8 {
+padding-left: 8px;
+}
+
+.PKGPopContainer .width300 {
+width: 300px;
+}
+
+.PKGPopContainer .pdT5 {
+	padding-top: 5px !important;
+}
+
+.PKGPopContainer .NDDiv {
+    background-color: #E5E5E5;
+    height: 20px;
+    width: 20px;
+}
+
+.PKGPopContainer .City {
+    cursor: pointer;
+    padding-left: 10px !important;
+}
+
+.PKGPopContainer .Country {
+    border-bottom: 1px dotted #CCCCCC;
+}
+.PKGPopContainer .InfoPop {
+	border: 1px solid #f7931d;
+	padding: 4px;
+	background-color: #fbe1c3;
+	font-size: 11px;
+	font-weight: bold;
+	padding-left: 30px;
+	background-image: url(../images/infom.png);
+	background-repeat: no-repeat;
+	background-position: 5px 2px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+.PKGPopContainer .InfoPop2 {
+	border: 1px solid #f7931d;
+	padding: 4px;
+	background-color: #fffadb;
+	font-size: 11px;
+	width: 189px;
+	background-image: url(../images/infom.png);
+	background-repeat: no-repeat;
+	background-position: 2px 2px;
+	padding-left: 23px;
+}
+
+.txtAlgCenter {
+	text-align: center;
+}
+.pdL10 {
+    padding-left: 10px;
+}
+
+.PKGPopContainer .PopHead {
+	background-color: #848486;
+	min-height: 18px;
+}
+
+.PKGPopContainer .popouter {
+	background-color: #fff;
+	padding: 3px;
+	height: auto;
+	float: left;
+}
+
+.PKGPopContainer .popClose {
+	padding: 10px;
+	padding-bottom:0px;
+	cursor: pointer;
+}
+
+
+.PKGPopContainer .fSiz25 {
+font-size: 25px;
+}
+
+.PKGPopContainer .fcol1 {
+color: #fff;
+}
+
+.PKGPopContainer .popClose {
+	padding: 10px;
+	padding-bottom:0px;
+	cursor: pointer;
+}
+
+.PKGPopContainer .width120 {
+width: 120px;
+}
+.PKGPopContainer .width200 {
+	width: 200px;
+}
+.PKGPopContainer .BkDrop option {
+	padding-bottom: 3px;
+	padding-top: 3px;
+	line-height: 25px;
+}
+
+.PKGPopContainer .City {
+	padding-left: 10px !important;
+	*padding-left: 10px !important;
+	cursor: pointer;
+}
+
+.PKGPopContainer .Country {
+	border-bottom: 1px dotted #ccc;
+}
+
+.SBMsgImg {
+	background-image: url(../images/icon_info.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-position: 10px 10px;
+}
+
+.PKGPopContainer .Dateselect {
+	width: 122px;
+	height: 17px;
+	background-image: url(../images/cal_icon.png);
+	background-repeat: no-repeat;
+	background-position: center right;
+	border: 1px solid #ccc;
+	padding-top: 3px;
+}
+
+.PKGPopContainer .SBMsg {
+	margin: 2px;
+	border: 1px solid #EDECEC;
+	background-color: #F3F3F3;
+	padding: 10px 5px 10px 5px;
+	font-size: 11px;
+	color: #B4120A;
+	font-weight: bold;
+	padding-left: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 1px dotted #CCC;
+	background-color: #F7F7F7;
+	padding-left: 45px;
+	padding-top: 5px;
+}
+
+.PKGPopContainer .FullDesLimit {
+	cursor: pointer;
+	max-width: 218px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	float: left;
+}
+
+.PKGPopContainer .pd5 {
+padding: 5px;
+}
+
+.PKGPopContainer table, .PKGPopContainer td ,.PKGPopContainer th {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+	
+	
+}
+
+
+
+.PKGPopContainer  .childAges select{
+
+ color: #000000;
+    font: 100% arial,sans-serif;
+border: 1px solid #CCCCCC;
+    font-size: 12px;
+    height: 21px;
+    
+    }
+    
+.PKGPopContainer .childAges select option {
+    padding: 4px;
+}
+
+.hnd {
+    cursor: pointer;
+}
+
+
+#fromCity, #toCity{
+	*width: 125px !important;
+	
+}
+
+.rowBk{
+	
+	padding-bottom: 9px;
+}
+
+.width75 {
+	width: 75px;
+}
+.width90 {
+	width: 90px;
+}
+
+.FLEFT{
+	float: left;
+}
+
+.FRIGHT{
+	float: right;
+}
+.mgntop2 {
+	margin-top:2px;
+}
+
+.btnLetsGo{
+	background-image: url(../images/btn_lets_go.png);
+	width: 110px;
+	height: 38px;
+	background-repeat: no-repeat;
+}
+
+.btnLetsGo:hover{
+	background-image: url(../images/btn_lets_go_hover.png);
+	width: 110px;
+	height: 38px;
+	background-repeat: no-repeat;
+}
+
+.mgntop3 {
+	margin-top:3px;	
+}
+
+.btnT1Cont{
+	cursor: pointer;
+}
+
+.btnT1Cont .btnT1_l {
+	background-image:url(../images/btnT1_L.png);
+	background-position:left;
+	height:43px;
+	background-repeat:no-repeat;
+	float:left;
+	padding-left:5px;
+}
+.btnT1Cont .btnT1_r {
+	background-image:url(../images/btnT1_R.png);
+	background-position:right;
+	height:43px;
+	background-repeat:no-repeat;
+	float:left;
+	padding-right:5px;
+}
+.btnT1Cont .btn_body {
+	float:left;
+	height:43px;
+	background-image:url(../images/btnT1_bg.png);
+	color:#fff;
+	vertical-align:middle;
+	text-align:center;
+	padding-left:5px;
+	padding-right:5px;
+	line-height:43px;
+	font-size: 18px;
+	font-family: OpenSans, Verdana, Geneva, sans-serif;
+	text-shadow: 0px 0px 5px #21AEC9;
+}
+.btnT1Cont .btn_body:hover {
+	background-image:url(../images/btnT1_bg_h.png);
+}
+.btnT1Cont .btnT1_r:hover {
+	background-image:url(../images/btnT1_R_h.png);
+}
+.btnT1Cont .btnT1_l:hover {
+	background-image:url(../images/btnT1_L_h.png);
+}
+
+
+.btnT2Cont{
+	cursor: pointer;
+}
+
+.btnT2Cont .btnT1_l {
+	background-image:url(../images/btnT2_L.png);
+	background-position:left;
+	height:39px;
+	background-repeat:no-repeat;
+	float:left;
+	padding-left:5px;
+}
+.btnT2Cont .btnT1_r {
+	background-image:url(../images/btnT2_R.png);
+	background-position:right;
+	height:39px;
+	background-repeat:no-repeat;
+	float:left;
+	padding-right:5px;
+}
+.btnT2Cont .btn_body {
+	float:left;
+	height:39px;
+	background-image:url(../images/btnT2_bg.png);
+	color:#fff;
+	vertical-align:middle;
+	text-align:center;
+	padding-left:5px;
+	padding-right:5px;
+	font-size:16px;
+	line-height:39px;
+	font-family: OpenSans, Verdana, Geneva, sans-serif;
+	text-shadow: 0px 0px 5px #21AEC9;
+}
+.btnT2Cont .btn_body:hover {
+	background-image:url(../images/btnT2_bg_h.png);
+}
+.btnT2Cont .btnT1_r:hover {
+	background-image:url(../images/btnT2_R_h.png);
+}
+.btnT2Cont .btnT1_l:hover {
+	background-image:url(../images/btnT2_L_h.png);
+}
+
