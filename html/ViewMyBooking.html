@@ -1,0 +1,48 @@
+<div class="popouter width500" id="viewBookingPopUp" style="display: none;">
+	<div class="">
+		<div class="PopHead">
+			<div>
+				<div class="fltLeft fSiz25 pdT10 pdB10 fcol1 pdL18">My Booking</div>
+				<div class="fltRight popClose">
+					<img src="CLP_BASE_URLimages/btn_close.png" width="19" height="19" class="CursorPointer" id="viewBookingClose"/>
+				</div>     
+				<br class="FClear" />
+			</div>    
+		</div>    
+    	<div class="PopBody pd5">
+			<div class="row  fcol4 fSiz12 " >
+				<br class="FClear" />
+				<div id="viewBookingErrorMsg" class="errorMsg" style="display: none;"></div>
+			</div>
+   			<div class="row  fcol4 fSiz12  pdT4 " >
+			     <div class="fltLeft width120 pdR18">
+			     	<div>Booking Reference #</div>
+			     	<input name="" type="text" class="txtFeeld" id="viewBkgBookingId"/>
+			     </div>
+			     <div class="fltLeft width120">
+			     	<div> Last Name</div> 
+			     	<input name="" type="text" class="txtFeeld" id="viewBkgLastName"/>
+			     </div>
+			 </div>
+		     <div class="fltRight width200">
+				<div class="btnT1Cont" id="viewBkgBtn">
+				  <div class="btnT1_l">
+				    <div class="btnT1_r">
+				      <div class="btn_body width180">VIEW MY BOOKING</div>
+				    </div>
+				  </div>
+				  <br clear="all">
+				</div>		     
+		     	<!-- <div class="btnViewmyBooking" id="viewBkgBtn"></div> -->
+		     </div>
+      			<br class="FClear" />
+      	</div>
+      	<div class="pdT10 " align="right"></div>
+	</div>
+</div>
+<div id="loadingAnim" style="display: none;" class="ajaxLoader">	   
+     <div class="LoadingAnimation">
+     <img src="CLP_BASE_URLimages/ajax-loader (1).gif" width="" height="" id="animation" />         
+     <div class="txtLoad">Loading your booking ...</div>
+   </div>
+</div>

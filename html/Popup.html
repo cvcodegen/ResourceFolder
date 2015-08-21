@@ -1,0 +1,139 @@
+<div class="PKGPopContainer" id="__searchpopup" style="display:none">
+	<div class="popup width300">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0"
+			class="">
+			<tr>
+				<td class="PopUpTopLcon"></td>
+				<td width="225" class="PopUpTopBg"></td>
+				<td width="8" class="PopUpTopRcon"></td>
+			</tr>
+			<tr>
+				<td class="PopUpTopLBg"></td>
+				<td class="BgCol1">
+					<div class="">
+						<div class="fltRight bokenclose">
+							<img src="#WEB_BASE#images/btn_close.png" width="19" height="19"
+								id="closeSearchBanner" />
+						</div>
+						<div class="fltLeft" id="searchHtml">
+
+							<!-- Minimum child age  -->
+							<input type="hidden" id="childMinAge" value="#CHILD_MIN_AGE#" />
+							<input type="hidden" id="webBase" value="#WEB_BASE#" />
+							<form id="popupSearchBoxForm" action="" method="post" target="_parent"
+								name="popupSearchBoxForm">
+								<input type="hidden" id="aa" name ="aa" value="0" />
+								</form>
+							<div class=" fltLeft txtAlgLeft BodyLside  ">
+								<div class="BookingEng">
+									<div class="BEHeader">
+										<div class="BEFotter pdT5">
+										 <div class="fltLeft pdL8 fSiz13  fcol1 fBold txtshadow">PLAN YOUR TRIP</div><br clear="all">
+											<div class="BEBody">
+												<div class="TabBox">
+													<div class="TabBoxBody" id="ComboPopup">
+														<div class="TabBoxBodyBt">
+															<div class="tbB">
+																<div id="errorMsg_pkg"></div>
+																<form action="" method="get">
+																	<div class="row minheg39">
+																		<div class="fltLeft width125" id="depDateDiv">
+																			<div class="title fcol4">Departure</div>
+																			<input type="text" id="departureDate_pkg"
+																				name="fromDate" class="Dateselect" />
+																		</div>
+																		<div class="fltRight width125" id="nightDiv_pkg">
+																			<div class="title fcol4">Nights</div>
+																			<div id="nightContainer">
+																				<select id="nights_pkg" class="BkDrop"
+																					onChange='popUpBannerShowSelectedNights(this.value)' sizset="false">
+																					<option value="t_0">0 Day Trip</option>
+																				</select>
+																			</div>
+																		</div>
+
+																	</div>
+																	<div class="row minheg39">
+																		<div class="fltLeft WidthLess100">
+																			<div class="title fcol4">Adults(19+)</div>
+
+																			<!-- <div class="DD">
+														<label> -->
+																			<select name="adults" class="BkDrop" id="adults_pkg">
+																			</select>
+																			<!-- </label></div>	 -->
+																		</div>
+																		<div class="fltLeft WidthLess100 PL3">
+																			<div class="title fcol4">Seniors(65+)</div>
+																			<!-- <div class="DD">
+														<label> -->
+																			<select name="seniors" class="BkDrop"
+																				id="seniors_pkg">
+																			</select>
+																			<!-- </label></div> -->
+																		</div>
+																		<div class="fltRight WidthLess100 PL3">
+																			<div class="title fcol4">Children(0-18)</div>
+																			<!-- <div class="DD">
+														<label> -->
+																			<select name="childs" class="BkDrop"
+																				id="children_pkg">
+																			</select>
+																			<!-- </label></div> -->
+																		</div>
+																		<div class="childAge" id="childAgeParent_pkg"
+																			style="display: none;">
+																			<br class="FClear" />
+																			<p class="pv1 childAgesTitle">Age</p>
+																			<div id="childAges_pkg" class="childAges">																				
+																			</div>
+																		</div>
+																		<br class="Fclear"/>
+																		
+																		<div id="ageErrorMsg_pkg" style="display: none"
+																			class="SBMsg SBMsgImg">Children under 1 ride FREE and are not provided a seat</div>
+																	</div>
+																	<div class="row  pdb0">
+																		<div class="fltLeft width135">
+																			<div class="title fcol4 ">Promo or Affiliate Code</div>
+
+																			<input type="text" name="code" id="code_pkg"
+																				class="PromoCd" />
+																		</div>
+																		<div class="fltRight hnd" id="goButton_pkg">
+																			<div class="btnT2Cont">
+																			  <div class="btnT1_l">
+																			    <div class="btnT1_r">
+																			      <div class="btn_body width90">LET'S GO</div>
+																			    </div>
+																			  </div>
+																			  <br clear="all">
+																			</div>
+																			<!-- <div align="right" class="PT3 btnLetsGo mgntop3" >
+																				</div> -->
+																		</div>
+																		<br class="FClear" />
+																	</div>
+																</form>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+</div>
+					</div></td>
+				<td class="PopUpTopRBg"></td>
+			</tr>
+			<tr>
+				<td class="PopUpBopLCon"></td>
+				<td class="PopUpBotBg"></td>
+				<td class="PopUpBotR"></td>
+			</tr>
+		</table>
+	</div>
+</div>
+

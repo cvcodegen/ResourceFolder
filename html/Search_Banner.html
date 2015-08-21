@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+<body>
+	<!-- Minimum child age  -->
+	<input type="hidden" id="childMinAge" value="#CHILD_MIN_AGE#" />
+	<input type="hidden" id="webBase" value="#WEB_BASE#" />
+	<form id="searchBoxForm" action="" method="post" target="_parent">
+	<input type="hidden" id="aa" name ="aa" value="0" />
+	</form>
+	<div class=" fltLeft txtAlgLeft ">
+		<div class="BookingEng">
+			<div class="BEHeader">
+				<div class="BEFotter">
+					<div class="BEBody">
+						<div class="TabBox">
+							<div class="tabs">
+								<a href="javascript:void(0);" id="clipperonly">
+									<div class="bESelTbHovSel" id="clipperonlyDiv">
+										<div class="Rimg">
+											<div class="bg" id="clipper_only">Clipper Only</div>
+										</div>
+									</div>
+								</a> <a href="javascript:void(0);" id="combodeals">
+									<div class="bESelTbSel" id="combodealsDiv">
+										<div class="Rimg">
+											<div class="bg" id="combo_deals">Combo Deals</div>
+										</div>
+									</div>
+								</a> <br class="FClear" />
+							</div>
+							<div class="TabBoxBody" id="Combo">
+								<div class="TabBoxBodyBt">
+									<div class="tbB">
+										<div id="errorMsg"></div>
+										<form action="" method="get">
+											<div class="rowBk fSiz11 minhegRad">
+												<div class="fltLeft">
+
+													<div class="fltLeft bkRdiLft">
+													<div class="fltLeft  rounRdio"><label id="rtLabel" class=""> <input id="roundTripRadio"
+															name="searchMode" type="radio" value="roundTrip"
+															checked="checked" /></label></div>
+													<div  class="fltLeft bkLbl">Roundtrip</div>
+														 
+														<br class="FClear" />
+														
+													</div>
+													<br class="FClear" />
+													<!-- <div class="fltLeft" id="roundTrip">Roundtrip</div> -->
+													<!-- <br class="FClear" /> -->
+												</div>
+												<div class="fltLeft bkRdiRsid">			
+												
+												
+												
+													<div class="fltLeft ">
+													
+													<div  class="fltLeft onewayrdio">
+													      <label id="owLabel" class=""> <input id="oneWayRadio" name="searchMode"
+															type="radio" value="oneWay" />
+														 </label>
+														</div>
+												    <div class="fltLeft bkLbl">One Way</div>
+												<br class="FClear" />
+												
+														
+													</div>
+													<div class="lodAni" style="display: none;">
+														<img src="#WEB_BASE#images/sb_ajax_loader.gif" width="32"
+															height="32" />
+													</div>
+													<br class="FClear" />
+													<!-- <div class="fltLeft" id="oneWay">One Way</div>
+													<br class="FClear" /> -->
+												</div>
+												<br class="FClear" />
+											</div>
+											<div class="rowBk minheg39">
+												<div class="fltLeft width125">
+													<div class="title fcol4">From</div>
+													<div id="fromCityDiv">
+														<select id="comboFromCity" class="BkDrop"
+															style="display: none">
+															<option value="">--Select from city--</option>
+														</select> <select id="clipperFromCity" class="BkDrop"
+															style="display: none">
+															<option value="">--Select from city--</option>
+														</select> <select name="fromCity" id="fromCity" class="BkDrop">
+															<option value="">--Select from city--</option>
+														</select>
+													</div>
+												</div>
+												<div class="fltRight width125">
+													<div class="title fcol4">To</div>
+													<div id="toCityDiv">
+														<select id="comboToCity" class="BkDrop"
+															style="display: none">
+															<option value="">--Select to city--</option>
+														</select> <select id="clipperToCity" class="BkDrop"
+															style="display: none">
+															<option value="">--Select to city--</option>
+														</select> <select name="toCity" id="toCity" class="BkDrop">
+															<option value="">--Select to city--</option>
+														</select>
+													</div>
+												</div>
+												<br class="FClear" />
+											</div>
+											<div class="rowBk minheg39">
+												<div class="fltLeft width125" id="depDateDiv">
+													<div class="title fcol4">Departure</div>
+													<input type="date" id="departureDate" name="fromDate"
+														class="Dateselect" />
+												</div>
+												<div class="fltRight width125" id="nightDiv"
+													style="display: none;">
+													<div class="title fcol4">Nights</div>
+													<div id="nightContainer">
+														<select id="night" class="BkDrop"
+															onChange='showSelected(this.value)' sizset="false">
+															<option value="t_0">0 Day Trip</option>
+														</select>
+													</div>
+												</div>
+												<div class="fltRight width125" id="arrivalDiv">
+													<div class="title fcol4">Return</div>
+													<input type="text" id="arrivalDate" name="toDate"
+														class="Dateselect" />
+												</div>
+												<br class="FClear" />
+											</div>
+											<div class="rowBk minheg39">
+												<div class="fltLeft WidthLess100">
+													<div class="title fcol4">Adults(19+)</div>
+
+													<!-- <div class="DD">
+														<label> -->
+													<select name="adults" class="BkDrop" id="adults">
+													</select>
+													<!-- </label></div>	 -->
+												</div>
+												<div class="fltLeft WidthLess100 PL3">
+													<div class="title fcol4">Seniors(65+)</div>
+													<!-- <div class="DD">
+														<label> -->
+													<select name="seniors" class="BkDrop" id="seniors">
+													</select>
+													<!-- </label></div> -->
+												</div>
+												<div class="fltRight WidthLess100 PL3">
+													<div class="title fcol4">Children(0-18)</div>
+													<!-- <div class="DD">
+														<label> -->
+													<select name="childs" class="BkDrop" id="children">
+													</select>
+													<!-- </label></div> -->
+												</div>
+												<div class="childAge" id="childAgeParent"
+													style="display: none;">
+													<br class="FClear" />
+													<p class="pv1 childAgesTitle">Age</p>
+													<div id="childAges" class="childAges">
+														<br class="FClear" />
+													</div>
+												</div>
+												<br class="FClear" />
+												<div id="ageErrorMsg" style="display: none"
+													class="SBMsg SBMsgImg">Children under 1 ride FREE and are not provided a seat</div>
+											</div>
+											<div class="rowBk  pdb0">
+												<div class="fltLeft width135">
+													<div class="title fcol4 ">Promo or Affiliate Code</div>
+
+													<input type="text" name="code" id="code"
+														class="PromoCd" />
+												</div>
+												<div class="btnT2Cont FRIGHT mgntop2" id="goButton">
+												  <div class="btnT1_l">
+												    <div class="btnT1_r">
+												      <div class="btn_body width90">LET'S GO</div>
+												    </div>
+												  </div>
+												  <br clear="all">
+												</div>
+					<!-- <div class="fltRight hnd btnLetsGo mgntop3" ></div> -->
+												<br class="FClear" />
+											</div>
+											<div id="clipperExceptionsList"></div>
+											<div id="comboExceptionsList"></div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
