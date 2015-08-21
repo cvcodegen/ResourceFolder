@@ -21,6 +21,7 @@ function getBaseUrl() {
 	}
 }
 
+//Load resource base
 function getResourceBaseURL() {
 	return $("#resourceBase").val();
 }

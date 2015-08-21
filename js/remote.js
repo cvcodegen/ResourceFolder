@@ -13,8 +13,8 @@ var CGClipper = function(id, type) {
 	// Constants for resource urls
 
 	var currTime = new Date().getTime();
-	var BASE_URL = getBaseUrl();
-	var RESOURCE_URL = getResourceBaseURL();
+	//var BASE_URL = getBaseUrl();
+	//var RESOURCE_URL = getResourceBaseURL();
 	var JQUERY_URL = RESOURCE_URL + "js/jquery-1.8.2.min.js";
 	var JQUERY_MIGRATE_URL = RESOURCE_URL + "js/jquery-migrate-1.2.1.js";
 	

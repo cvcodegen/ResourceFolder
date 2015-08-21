@@ -11,9 +11,9 @@
 (function($){
  $.fn.idleTimeout = function(options) {
     var defaults = {
-			inactivity: 600000, //1500000 25 Min (1200000 - 20 Minutes )(600000-10 Minutes)
-			noconfirm: 300000, //300000 5 Min (10000  - 10 Seconds )
-			sessionAlive: 1000000, //1800000 - 30 Minutes
+			inactivity:    900000, //1500000 25 Min (1200000 - 20 Minutes )(600000-10 Minutes)
+			noconfirm:     300000, //300000 5 Min (10000  - 10 Seconds )
+			sessionAlive: 1800000, //1800000 - 30 Minutes
 			redirect_url: $("#clipperBackUrl").val(),
 			click_reset: false,
 			alive_url: '/ClipperWeb/keepAlive;jsessionid=' + $("#sid").val() ,
