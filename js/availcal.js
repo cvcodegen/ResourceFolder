@@ -544,20 +544,13 @@ var Calendar = function(id, opt) {
 		w = $__cal('#' + _id).width();
 		h = $__cal('#' + _id).height() + 10;
 		p = $__cal('#' + _id).position();
+		// Set calendar
+		_cal.css("top", (p.top + h));
 
-        var minHeight = window.innerHeight - _cal.height();
-
-        if(_cal.height() > minHeight){
-            h =  h - 25;
-        }
-
-        // Set calendar
-        _cal.css("top", (p.top + h));
-
-		if(window.innerWidth > 600){
+		if(window.innerWidth < (p.left + 230)){
 			_cal.css("left", ((p.left-95) + 'px'));
 		}else{
-			_cal.css("left", ((p.left-45) + 'px'));
+			_cal.css("left", ((p.left-95) + 'px'));
 		}
 		_cal.css("position", "absolute");
 		_cal.css("z-index", "99999999");
