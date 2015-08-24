@@ -24,7 +24,6 @@ $(document).ready(function() {
 	browserName = BrowserDetect.Browser;
 });
 
-
 /**
  * used to send ajax request to the given url
  *
@@ -933,6 +932,7 @@ function initRightSideBasket() {
 		$(iconSelector).unbind("click");
 		$(iconSelector).click(function() {
 			$(".shoppingBskt").hide();
+            $("#orgCageRside").show();
 		});
 
 		//Closing function clicking on page
@@ -1105,7 +1105,7 @@ function initWindowResize() {
 }
 
 function scrollToTop() {
-	window.scrollTo(0,0);
+	//window.scrollTo(0,0);
 }
 
 function initPopupReziseUpdater() {
@@ -1145,6 +1145,27 @@ function addingMargingTopShpBskt(){
 
 	//document.getElementById("orgCageRsideViwRes").className = "CageTop orgCageRsideViwRes";
 }
+
+// Allow an element to scroll until it is 10px from the top then fix there
+function scrollFixToTop(){
+
+    var target = $("#orgCageRside"),
+        targetTop = target.offset().top,
+        timeout = null;
+    $(window).scroll(function () {
+        if (!timeout) {
+            timeout = setTimeout(function () {
+                clearTimeout(timeout);
+                timeout = null;
+                if ($(window).scrollTop() >= targetTop - 10) {
+                    target.addClass("fixToBottom");
+                } else {
+                    target.removeClass("fixToBottom");
+                }
+            }, 250);
+        }
+    });
+}
 function warningMessageTop(){
 	if(( $("#warningDialog").is(":visible")) && ( $("#orgCageRsideViwRes").is(":visible"))){
 		$("#orgCageRsideViwRes").removeClass('orgCageRsideViwRes');
@@ -1159,3 +1180,4 @@ function warningMessageTop(){
 		}
 	}
 }
+
